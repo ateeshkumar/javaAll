@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch tryit",
+      "request": "launch",
+      "mainClass": "tryit",
+      "projectName": "java code_20451d10"
+    },
+    {
+      "type": "java",
+      "name": "Launch thread",
+      "request": "launch",
+      "mainClass": "thread",
+      "projectName": "java code_20451d10"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "c:\\Users\\Avita\\OneDrive\\Desktop\\java code",
+      "environment": [],
+      "program": "c:\\Users\\Avita\\OneDrive\\Desktop\\java code\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
